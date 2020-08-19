@@ -1,0 +1,28 @@
+@import '../../styles//variable';
+
+.case-card {
+  .card-header {
+    font-size: 14px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+  &.card-{
+    &red {
+      .card-header {
+        border-bottom: 3px solid $color-04;
+      }
+    }
+
+    &green {
+      .card-header {
+        border-bottom: 3px solid $color-05;
+      }
+    }
+  }
+
+  .case-number {
+    font-size: 18px;
+  }
+}

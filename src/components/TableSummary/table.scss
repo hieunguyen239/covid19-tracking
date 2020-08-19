@@ -1,0 +1,9 @@
+@import '../../styles/variable';
+
+thead.sticky-head {
+  th {
+    position: sticky;
+    top: 0;
+    background-color: $color-03;
+  }
+}
